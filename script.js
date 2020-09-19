@@ -114,7 +114,7 @@ $(document).ready(function() {
       //url: requestUrl + '/?' + $.param({
       //  taskId: taskId
       //}),
-        url: requestUrl + '/' + taskId,
+        url: requestUrl + taskId,
     //$.ajax({
       //url: requestUrl + '/?' + $.param({
       //  taskId: taskId
